@@ -34,3 +34,9 @@ const ContactFormModel = mongoose.Schema({
     ],
   },
 });
+
+export default mongoose.model(
+  "Control Form Schema",
+  ContactFormModel,
+  "Contact Form"
+);
